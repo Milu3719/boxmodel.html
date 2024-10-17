@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>CSS</title>
+    <style>
+        body {
+            
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,cyan 40%,lime 50%,rgb(232, 128, 250) 20%,darkcyan );
+display: flex;
+
+height: 200px;
+margin: 30px;
+justify-content: center;
+align-items: center; 
+        }
+
+        .form-container {
+            background-color:indianred;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px mediumaquamarine;
+            width: 400px;
+            margin-top: 40px;
+        }
+        h2 {
+            text-align: center;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px aquamarine;
+            box-sizing: border-box;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 20px 0;
+          border: 1px yellowgreen;
+          box-sizing: border-box;
+
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: goldenrod;
+            color: aqua;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.4 ease;
+
+        }
+      button:hover {
+background-color:gold ;
+      }
+    </style>
+
+</head>
+
+<body>
+<div class="form-container">
+    <h2>Login</h2>
+    <form>
+        <input type="email" placeholder="email" required>
+        <input type="password" placeholder="password" required>
+        <button type="submit">Login</button>
+    </form>
+    <div class="link">
+        <p>dont have an account <a href="register.html">Register here</a></p>
+    </div>
+</body>
+
+</html>
